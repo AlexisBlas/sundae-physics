@@ -310,14 +310,14 @@ export function HeroScrub() {
           >
             {/* Glyph halos alone keep type readable over the full-bleed footage */}
             <div className="px-6 py-8 md:px-12 md:py-10">
-              <p className="font-mono text-[11px] font-bold tracking-[0.22em] text-ink uppercase">
+              <p className="hero-eyebrow-shadow font-mono text-[11px] font-bold tracking-[0.22em] text-white uppercase">
                 Experiment N.047 — Controlled Detonation
               </p>
-              <h1 className="font-display mx-auto mt-5 max-w-3xl text-4xl leading-none font-extrabold tracking-tighter text-balance text-cherry sm:text-5xl md:text-7xl">
+              <h1 className="hero-headline-shadow font-display mx-auto mt-5 max-w-3xl text-4xl leading-none font-extrabold tracking-tighter text-balance text-[#FF3483] sm:text-5xl md:text-7xl">
                 The banana split, studied at the particle level.
               </h1>
               <div className="mx-auto mt-6">
-                <p className="mx-auto max-w-[42ch] leading-relaxed font-semibold text-ink">
+                <p className="hero-body-shadow mx-auto max-w-[42ch] leading-relaxed font-semibold text-white">
                   Three scoops, one banana, and a controlled detonation of
                   flavor. Scroll to run the slow-motion replay.
                 </p>

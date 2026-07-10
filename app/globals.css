@@ -78,6 +78,19 @@ html {
   animation: breathe 2.2s ease-in-out infinite;
 }
 
+/* Subtle shadows for hero copy over full-bleed footage */
+.hero-eyebrow-shadow {
+  text-shadow: 0 1px 8px rgb(251 217 214 / 0.55);
+}
+
+.hero-headline-shadow {
+  text-shadow: 0 2px 20px rgb(251 217 214 / 0.5), 0 1px 4px rgb(251 217 214 / 0.35);
+}
+
+.hero-body-shadow {
+  text-shadow: 0 1px 10px rgb(251 217 214 / 0.58);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
