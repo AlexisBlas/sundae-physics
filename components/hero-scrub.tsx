@@ -317,7 +317,7 @@ export function HeroScrub() {
                 The banana split, studied at the particle level.
               </h1>
               <div className="mx-auto mt-6">
-                <p className="hero-body-shadow mx-auto max-w-[42ch] leading-relaxed font-semibold text-[#FF3483]">
+                <p className="hero-body-shadow mx-auto max-w-[42ch] text-[24px] leading-relaxed font-semibold text-[#FBD9D6]">
                   Three scoops, one banana, and a controlled detonation of
                   flavor. Scroll to run the slow-motion replay.
                 </p>
