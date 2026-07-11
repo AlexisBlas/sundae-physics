@@ -289,7 +289,7 @@ export function HeroScrub() {
 
   return (
     <section ref={outerRef} id="experiment" className="relative h-[320vh]">
-      <div className="sticky top-0 h-[100dvh] overflow-hidden">
+      <div className="sticky top-0 h-[100dvh] min-h-[900px] overflow-hidden">
         {/* Pastel stage matching the footage background, so the square clip blends in */}
         <div className="absolute inset-0 bg-[linear-gradient(115deg,#f7e5e8_0%,#efe9f1_45%,#dcebf5_100%)]" />
 
@@ -313,7 +313,7 @@ export function HeroScrub() {
               <p className="hero-eyebrow-shadow font-mono text-[11px] font-bold tracking-[0.22em] text-white uppercase">
                 Experiment N.047 — Controlled Detonation
               </p>
-              <h1 className="hero-headline-shadow font-display mx-auto mt-5 max-w-3xl text-4xl leading-none font-extrabold tracking-tighter text-balance text-[#FF3483] sm:text-5xl md:text-7xl">
+              <h1 className="hero-headline-shadow font-display mx-auto mt-5 max-w-6xl text-[44px] leading-none font-extrabold tracking-tighter text-balance text-[#531a30] sm:text-[56px] md:text-[80px]">
                 The banana split, studied at the particle level.
               </h1>
               <div className="mx-auto mt-6">
