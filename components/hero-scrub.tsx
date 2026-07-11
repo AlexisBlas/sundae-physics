@@ -19,9 +19,9 @@ function ScrollCue() {
         transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
         className="flex h-9 w-9 items-center justify-center rounded-full border border-ink/15 bg-white/60"
       >
-        <ArrowDown size={16} weight="bold" />
+        <ArrowDown size={16} weight="bold" className="text-[#531a30]" />
       </motion.span>
-      <span className="font-mono text-[11px] tracking-[0.22em] uppercase">
+      <span className="font-mono text-[11px] tracking-[0.22em] text-[#531a30] uppercase">
         Scroll to detonate
       </span>
     </>
@@ -310,14 +310,14 @@ export function HeroScrub() {
           >
             {/* Glyph halos alone keep type readable over the full-bleed footage */}
             <div className="px-6 py-8 md:px-12 md:py-10">
-              <p className="hero-eyebrow-shadow font-mono text-[11px] font-bold tracking-[0.22em] text-white uppercase">
+              <p className="hero-eyebrow-shadow font-mono text-[11px] font-bold tracking-[0.22em] text-[#531a30] uppercase">
                 Experiment N.047 — Controlled Detonation
               </p>
               <h1 className="hero-headline-shadow font-display mx-auto mt-5 max-w-6xl text-[44px] leading-none font-extrabold tracking-tighter text-balance text-[#531a30] sm:text-[56px] md:text-[80px]">
                 The banana split, studied at the particle level.
               </h1>
               <div className="mx-auto mt-6">
-                <p className="hero-body-shadow mx-auto max-w-[42ch] leading-relaxed font-semibold text-white">
+                <p className="hero-body-shadow mx-auto max-w-[42ch] leading-relaxed font-semibold text-[#FF3483]">
                   Three scoops, one banana, and a controlled detonation of
                   flavor. Scroll to run the slow-motion replay.
                 </p>
@@ -342,7 +342,7 @@ export function HeroScrub() {
           style={{ opacity: finaleOpacity, y: finaleY, pointerEvents: finalePointer }}
           className="absolute inset-x-6 bottom-24 z-20 flex flex-col items-center gap-6 text-center md:bottom-16"
         >
-          <p className="font-display text-4xl font-extrabold tracking-tighter md:text-6xl">
+          <p className="font-display text-4xl font-extrabold tracking-tighter text-[#531a30] md:text-6xl">
             Findings: delicious.
           </p>
           <MagneticButton
